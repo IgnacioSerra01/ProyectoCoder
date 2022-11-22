@@ -1,0 +1,127 @@
+
+.main__seccion{
+    background-color: #382926;
+    font-style: 2em sans-serif;
+    
+
+}
+.main__seccion__contenedor__imagen{
+    height: 100px;
+    width: 50vh;
+}   
+
+.imagenPrincipal{
+    margin:0;
+    padding:0;
+    align-items: center;
+    overflow: auto;
+    height: 100%;
+    width:50vh;
+    
+}
+.paginaPrincipal{
+    background-color: #382926;
+    margin: 0; 
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.encabezado{
+    list-style: none;
+    background: #382926;
+    padding: 0;
+    margin-left:auto;
+}
+.encabezado__menu__lista{
+    text-decoration: none;
+    color: blanchedalmond;
+    padding: 20px;
+    display: inline-block;
+    text-align: right;
+}   
+.contenedor__servicio{
+    margin: 0;
+    padding: 0;
+    background-color: #263832;
+    
+    
+}
+.contenedor__recetas{
+    margin: 0;
+    padding: 0;
+    background-color: #263832;
+    
+}
+.contenedor__contacto{
+    margin: 0;
+    padding: 0;
+    background-color: #263832;
+    
+}
+.imagenServicio{
+    height: 100px;
+    width: 60vh;
+    margin: 2px;
+    padding: 0;
+}
+.imagenRecetas{
+    height: 100px;
+    width: 60vh;
+    margin: 2px;
+    padding: 0;
+}
+.imagenContacto{
+    height: 100px;
+    width: 50vh;
+    margin: 2px;
+    padding: 0;
+}
+.main__seccion__contenedor{
+    background-color: #263832;
+    
+}
+
+.piePagina{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 4rem;
+    width: 100%;
+}
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+  }
+
+  .carousel-item{
+    height: 70vh;
+  }
+    .carousel-inner{
+        width: 90%;
+    }
+
+html{
+    background-color: #408870;
+}
+
+  
+    
+  .imgServ{
+    width: 80vh;
+  }
+
+  .imgRec{
+    width: 80vh;
+  }
+
+  .imgCon{
+    width: 80vh;
+  }
+  
+  .shadow-pop-br{-webkit-animation:shadow-pop-br .3s cubic-bezier(.47,0.000,.745,.715) both;animation:shadow-pop-br .3s cubic-bezier(.47,0.000,.745,.715) both}
+
+  .face{
+    background-color: #301a91;
+  }
