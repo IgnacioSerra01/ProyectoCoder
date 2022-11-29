@@ -127,18 +127,18 @@ body {
     background-color: #301a91;
   }
 
-  @media (min-width: 62em;) {
+  @media (min-width: 62em) {
     .featurette-heading{
         margin-top: 7rem;
     }
   }
-@media (min-width:768px;) {
+@media (min-width:768px) {
     .bd-placeholder-img-lg{
         font-size: 3.5rem;
     }
 }
 
-@media (min-width:40em;) {
+@media (min-width:40em) {
     .carousel-caption{
         margin-bottom: 1.25rem;
         font-size: 1.25rem;
