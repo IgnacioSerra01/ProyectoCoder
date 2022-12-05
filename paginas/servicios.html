@@ -5,15 +5,15 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ignacioserra</title>
-        <link rel="stylesheet" href="./css/estilos.css">
-        <link rel="stylesheet" href="./Bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/estilos.css">
+        <link rel="stylesheet" href="../Bootstrap/bootstrap.min.css">
     </head>
-        <body>
+        <body class="cuerpoPrincipal">
             <header class="mb-5">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="#">Ignacio Serra
-                            <img src="./Assets/imagenes/logo.png" alt="logo" width="30" height="24" class="d-inline-block align-text-top">
+                            <img src="../Assets/imagenes/logo.png" alt="logo" width="30" height="24" class="d-inline-block align-text-top">
                         </a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -45,19 +45,26 @@
                   </nav>
             </header>
             <main>
-                <section>
-                    <img src="/Assets/imagenes/Servicios de nutrción.jpg" alt="servicios prestados">
-                    <h1>Servicios</h1>
-                    <ul>
-                        <li>Cambio de hábitos</li>
-                        <li>Antropometría</li>
-                        <li>Planes personalizados</li>
-                        <li>Alimentación a base de plantas</li>
-                    </ul>
-                </section>
+              <div class="card mx-auto" style="width: 30rem;">
+                <img src="../Assets/imagenes/Servicios-de-nutrción.png" class="card-img-top imagenServicio" alt="servicios">
+                <div class="card-body">
+                  <h5 class="card-title">Servicios</h5>
+                  <p class="card-text">Ofezco los siguientes servicios</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item letraLista">Cambio de hábitos</li>
+                  <li class="list-group-item letraLista">Alimentacion a base de plantas</li>
+                  <li class="list-group-item letraLista">Patologías</li>
+                  <li class="list-group-item letraLista">Antropometría</li>
+                </ul>
+                <div class="card-body">
+                  <a href="../paginas/contacto.html" class="card-link">Turnos</a>
+                  <a href="../paginas/recetas.html" class="card-link">Recetas</a>
+                </div>
+              </div>
             </main>
        
-            <footer>
+            <footer class="piePagina">
                 <div class="btn-group" role="group" aria-label="Basic mixed styles example">
                     <button type="button" class="btn face">Facebook</button>
                     <button type="button" class="btn insta">Instagram</button>
@@ -65,6 +72,6 @@
                 </div>
                 <p>Todos los derechos reservados</p>
             </footer>
-            <script src="./js/bootstrap.min.js"></script>
+            <script src="../js/bootstrap.min.js"></script>
         </body>
 </html>

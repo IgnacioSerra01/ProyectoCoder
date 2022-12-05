@@ -1,155 +1,200 @@
-
-.main__seccion{
-    background-color: #382926;
-    font-style: 2em sans-serif;
-    
-
-}
-.main__seccion__contenedor__imagen{
-    height: 100px;
-    width: 50vh;
-}   
-
-.imagenPrincipal{
-    margin:0;
-    padding:0;
-    align-items: center;
-    overflow: auto;
-    height: 100%;
-    width:50vh;
-    
-}
-.paginaPrincipal{
-    background-image: url(https://cdn.pixabay.com/photo/2017/09/16/19/21/salad-2756467__340.jpg);
-    margin: 0; 
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+.main__seccion {
+  background-color: #382926;
+  font-style: 2em sans-serif;
 }
 
-.encabezado{
-    list-style: none;
-    background: #382926;
-    padding: 0;
-    margin-left:auto;
-}
-.encabezado__menu__lista{
-    text-decoration: none;
-    color: blanchedalmond;
-    padding: 20px;
-    display: inline-block;
-    text-align: right;
-}   
-.contenedor__servicio{
-    margin: 0;
-    padding: 0;
-    background-color: #263832;
-    
-    
-}
-.contenedor__recetas{
-    margin: 0;
-    padding: 0;
-    background-color: #263832;
-    
-}
-.contenedor__contacto{
-    margin: 0;
-    padding: 0;
-    background-color: #263832;
-    
-}
-.imagenServicio{
-    height: 100px;
-    width: 60vh;
-    margin: 2px;
-    padding: 0;
-}
-.imagenRecetas{
-    height: 100px;
-    width: 60vh;
-    margin: 2px;
-    padding: 0;
-}
-.imagenContacto{
-    height: 100px;
-    width: 50vh;
-    margin: 2px;
-    padding: 0;
-}
-.main__seccion__contenedor{
-    background-color: #263832;
-    
+.main__seccion__contenedor__imagen {
+  height: 100px;
+  width: 50vh;
 }
 
-.piePagina{
-    position: sticky;
-    bottom: 0;
-    left: 0;
-    height: 4rem;
-    width: 100%;
-    display: flex;
+.imagenPrincipal {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  overflow: auto;
+  height: 100%;
+  width: 50vh;
+}
+
+.paginaPrincipal {
+  background-image: url(https://cdn.pixabay.com/photo/2017/09/16/19/21/salad-2756467__340.jpg);
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.encabezado {
+  list-style: none;
+  background: #382926;
+  padding: 0;
+  margin-left: auto;
+}
+
+.encabezado__menu__lista {
+  text-decoration: none;
+  color: blanchedalmond;
+  padding: 20px;
+  display: inline-block;
+  text-align: right;
+}
+
+.contenedor__servicio {
+  margin: 0;
+  padding: 0;
+  background-color: #263832;
+}
+
+.contenedor__recetas {
+  margin: 0;
+  padding: 0;
+  background-color: #263832;
+}
+
+.contenedor__contacto {
+  margin: 0;
+  padding: 0;
+  background-color: #263832;
+}
+
+.imagenServicio {
+  height: 100px;
+  width: 60vh;
+  margin: 2px;
+  padding: 0;
+}
+
+.imagenRecetas {
+  height: 100px;
+  width: 60vh;
+  margin: 2px;
+  padding: 0;
+}
+
+.imagenContacto {
+  height: 100px;
+  width: 50vh;
+  margin: 2px;
+  padding: 0;
+}
+
+.main__seccion__contenedor {
+  background-color: #263832;
+}
+
+.piePagina {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1rem 0;
+  width: 100%;
+  text-align: right;
 }
 
 body {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    color: #5a5a5a;
-  }
-
-  .carousel-item{
-    height: 70vh;
-  }
-    .carousel-inner{
-        width: 90%;
-    }
-
-
-    
-
-
-  
-    
-  .imgServ{
-    width: 80vh;
-  }
-
-  .imgRec{
-    width: 80vh;
-  }
-
-  .imgCon{
-    width: 80vh;
-  }
-  
-  .shadow-pop-br{-webkit-animation:shadow-pop-br .3s cubic-bezier(.47,0.000,.745,.715) both;animation:shadow-pop-br .3s cubic-bezier(.47,0.000,.745,.715) both}
-
-  .face{
-    background-color: #301a91;
-  }
-
-  @media (min-width: 62em) {
-    .featurette-heading{
-        margin-top: 7rem;
-    }
-  }
-@media (min-width:768px) {
-    .bd-placeholder-img-lg{
-        font-size: 3.5rem;
-    }
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
 }
 
-@media (min-width:40em) {
-    .carousel-caption{
-        margin-bottom: 1.25rem;
-        font-size: 1.25rem;
-        line-height: 1.4;
-    }
-    .featurette-heading{
-        font-size: 50px;
-    }
+.carousel-item {
+  height: 70vh;
 }
 
-.card-img-top{
-    height: 50px;
-    width: 100vh;
+.carousel-inner {
+  width: 90%;
+}
+
+.imgServ {
+  width: 80vh;
+}
+
+.imgRec {
+  width: 80vh;
+}
+
+.imgCon {
+  width: 80vh;
+}
+
+.shadow-pop-br {
+  -webkit-animation: shadow-pop-br 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+  animation: shadow-pop-br 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+}
+
+.face {
+  background-color: #301a91;
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+@media (min-width: 40em) {
+  .carousel-caption {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+.card-img-top {
+  height: 50px;
+  width: 100vh;
+}
+
+
+
+.cuerpoPrincipal {
+  background-color: #085218;
+  position: relative;
+}
+
+.separador{
+  color: #301a91;
+}
+
+.letra{
+  color: aqua;
+}
+
+.barra{
+  color: #2C3B2F;
+}
+/* sourceMappingURL=estilos.css.map */
+.card {
+  display: flex;
+
+}
+.cartaPresentacion{
+  display: flex;
+  align-items: center;
+
+  
+}
+.cartaCuerpo{
+  text-align: center;
+  display: flex;
+  
+}
+.imagenComida{
+  width: 50vh;
+  height: 100px;
+}
+.recetario{
+  margin: 10px 10px;
+}
+.imagenServicio{
+  height: 200px;
+}
+.letraLista{
+  color: chocolate;
 }
