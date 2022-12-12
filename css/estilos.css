@@ -1,5 +1,5 @@
 .paginaPrincipal {
-  background-image: url(https://cdn.pixabay.com/photo/2017/09/16/19/21/salad-2756467__340.jpg);
+  background-image: url("https://cdn.pixabay.com/photo/2017/09/16/19/21/salad-2756467__340.jpg");
   margin: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
@@ -57,7 +57,22 @@
 .paginaPrincipal .cuerpoPrincipal .letraLista {
   color: chocolate;
 }
+.carta{
+  background: linear-gradient(66deg,#ff0000 0%, #009dff 80%);
+  border-radius: 45px 45px 45px 45px;
+  box-shadow: -17px 12px 132px 19px rgba(0,0,0,0.76);
+ }
+ .linkTurno{
+   color: #ff0000;
+ }
+ .linkReceta{
+   color: #ff0000;
+ }
 
+ .barra{
+  background: radial-gradient(circle farthest-corner at center center, #1d00ff 0%, #ffb100 80%);
+  border: #2C3B2F;
+ }
 
 
 
