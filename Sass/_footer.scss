@@ -4,11 +4,21 @@
     left: 0;
     height: 4rem;
     width: 100%;
-    display: flex;
+    padding: 1em;
+    text-align: center;
+    .face{
+        color: #1d00ff;
+      }
+      .insta{
+        color: #7c0e45;
+      }
+      .wpp{
+        color: #05cf27;
+      } 
         .shadow-pop-br{
             .shadow-pop-br{-webkit-animation:shadow-pop-br .3s cubic-bezier(.47,0.000,.745,.715) both;animation:shadow-pop-br .3s cubic-bezier(.47,0.000,.745,.715) both}
         }
-        border: 4px solid #ff9050;
-
+       
+    
 
 }
