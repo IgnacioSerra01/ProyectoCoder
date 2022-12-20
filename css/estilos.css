@@ -5,13 +5,13 @@
 }
 
 .paginaPrincipal {
-  background-image: url("/Assets/imagenes/fondo alimentos.png");
+  background-image: url(../assets/imagenes/fondoalimentos.png);
   margin: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
 .paginaPrincipal .cuerpoPrincipal {
-  background-color: #085218;
+  /*background-color: #085218;*/
   position: relative;
 }
 .paginaPrincipal .cuerpoPrincipal .carousel-item {
