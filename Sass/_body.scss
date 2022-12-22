@@ -1,9 +1,10 @@
 .paginaPrincipal{
-    background-image: url(../assets/imagenes/fondoalimentos.png);
+    
        margin: 0; 
        box-sizing: border-box;
        font-family: Arial, Helvetica, sans-serif;
            .cuerpoPrincipal{
+                background-image: url(../assets/imagenes/fondoalimentos.png);
                /*background-color: #085218;*/
                position: relative;
                .carousel-item{
@@ -27,7 +28,7 @@
                    border: #2C3B2F;
                 }
                 .letra{
-                   color: aqua;
+                   color: map-get($map: $color-secundario, $key: "secundario" );
                 }
                 .card{
                    display: flex;
@@ -53,7 +54,7 @@
                    height: 200px;
                 }
                 .letraLista{
-                   color: chocolate;
+                   color: map-get($map: $color-letra, $key:"letra" );
                 }
            
                .imgServ{
@@ -74,27 +75,67 @@
                .carta{
                 background: linear-gradient(66deg,#ff0000 0%, #009dff 80%);
                 box-shadow: -17px 12px 132px 19px rgba(0,0,0,0.76);
-                
+                  .imgMia{
+                    height: 100%;
+                  }
                }
                .linkTurno{
-                 color: #ff0000;
+                 color:map-get($map: $color-link, $key:"link" );
                }
                .linkReceta{
-                 color: #ff0000;
+                 color: map-get($map: $color-link, $key:"link" );
                }
                .mapa{
                 height: 300px;
                 text-align: center;
                 padding-left: 38%;
+                opacity: 1;
+                display: block;
+                width: 100%;
+                height: auto;
+                transition: .5s ease;
+                backface-visibility: hidden;
+              }
+              .divCont{
+                /*width: 50%;*/
+                padding-right: 28%;
+                .divImagen{
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                }
+              }
+              .divCont:hover.mapa{
+                opacity: 0.3;
+              }
+              .divCont:hover.medio{
+                opacity: 1;
+              }
+              .medio{
+                transition: .5s ease;
+                opacity: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                text-align: center;
+              }
+              .texto{
+                background-color: #04AA6D;
+                color: white;
+                font-size: 16px;
+                padding: 16px 32px;
               }
               .botones{
                 align-items: center;
                 text-align: center;
               }
               .botonCampo{
-                background-color: #940442;
+                background-color: map-get($map: $color-boton, $key:"boton" );
               }
                
+
                }
    
    
