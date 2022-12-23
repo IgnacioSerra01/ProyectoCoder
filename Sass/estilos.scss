@@ -2,7 +2,7 @@
 @import "reset";
 @import "body";
 @import "footer";
-
+@import "queries";
 
 
 
@@ -82,7 +82,7 @@
 */
   
   
-@media (min-width: 62em) {
+/*@media (min-width: 62em) {
     .featurette-heading{
         margin-top: 7rem;
     }
@@ -102,7 +102,7 @@
     .featurette-heading{
         font-size: 50px;
     }
-}
+}*/
 /*
 .card-img-top{
     height: 50px;
