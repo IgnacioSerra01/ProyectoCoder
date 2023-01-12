@@ -11,12 +11,21 @@
                    height: 70vh;
                    .carousel-inner{
                        width: 90%;
-                   }        
+                   }  
+                   .colorTitulo{
+                    color: #050505;
+                   }      
                }
                .separador{
                color: #301a91;
                .imgServ{
                    width: 80vh;
+               }
+               .inicioEjemplo{
+                color: map-get($map: $color-link, $key:letra );
+               }
+               .textoParrafo{
+                color: #04AA6D;
                }
              }   .imgRec{
                     width: 80vh;
@@ -28,7 +37,7 @@
                    border: #2C3B2F;
                 }
                 .letra{
-                   color: map-get($map: $color-secundario, $key: "secundario" );
+                   color: map-get($map: $color-link, $key: "secundario" );
                 }
                 .card{
                    display: flex;
@@ -38,8 +47,7 @@
                 .cartaPresentacion{
                    display: flex;
                    .cartaCuerpo{
-                       text-align: center;
-                       
+                       text-align: center; 
                    }
                 }
                 
@@ -130,6 +138,7 @@
               .botones{
                 align-items: center;
                 text-align: center;
+                margin: 2px;
               }
               .botonCampo{
                 background-color: map-get($map: $color-boton, $key:"boton" );
