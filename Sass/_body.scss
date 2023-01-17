@@ -54,12 +54,14 @@
                 .recetario{
                    margin: 10px 10px;
                    .imagenComida{
-                       width: 50vh;
-                       height: 100px;
+                       width: 100vh;
+                       height: 200px;
                    }
                 }
                 .imagenServicio{
-                   height: 200px;
+                   height: 100px;
+                   width: 100vh;
+                   display: flex;
                 }
                 .letraLista{
                    color: map-get($map: $color-letra, $key:"letra" );
