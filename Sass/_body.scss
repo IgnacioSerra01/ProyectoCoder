@@ -6,14 +6,19 @@
            .cuerpoPrincipal{
                 background-image: url(../assets/imagenes/fondoalimentos.png);
                /*background-color: #085218;*/
+               background-size: cover;
                position: relative;
+               background-color: rgb(0, 0, 0,6);
+               background-repeat: no-repeat;
                .carousel-item{
                    height: 70vh;
                    .carousel-inner{
                        width: 90%;
                    }  
                    .colorTitulo{
-                    color: #050505;
+                    color: #1d00ff;
+                    text-shadow: #2C3B2F;
+
                    }      
                }
                .separador{
@@ -23,6 +28,8 @@
                }
                .inicioEjemplo{
                 color: map-get($map: $color-link, $key:letra );
+                text-shadow: #5a5a5a;
+                size: 2rem;
                }
                .textoParrafo{
                 color: #04AA6D;

@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 .paginaPrincipal {
@@ -12,16 +13,21 @@
 }
 .paginaPrincipal .cuerpoPrincipal {
   background-image: url(../assets/imagenes/fondoalimentos.png);
-  filter: brightness(100%);
-  /*background-color: #085218;*/
+  background-size: cover;
+   /*background-color: #085218;*/
   position: relative;
+  background-color: rgb(0, 0, 0,6);
+  background-repeat: no-repeat;
 }
+
+
 .paginaPrincipal .cuerpoPrincipal .carousel-item {
   height: 70vh;
     
 }
-.paginaPrincipal .cuerpoPrincipal .corousel-item .colorTitulo{
-  color:#050505;
+.paginaPrincipal .cuerpoPrincipal .corousel-item .carousel-caption .colorTitulo{
+  color: #1d00ff;
+  text-shadow: #2C3B2F;
 }
 .paginaPrincipal .cuerpoPrincipal .carousel-item .carousel-inner {
   width: 90%;
@@ -32,6 +38,7 @@
 .paginaPrincipal .cuerpoPrincipal .separador .inicioEjemplo{
   color: red;
   size: 2rem;
+  text-shadow: #5a5a5a;
 }
 .paginaPrincipal .cuerpoPrincipal .separador .imgServ {
   width: 80vh;

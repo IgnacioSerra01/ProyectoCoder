@@ -25,3 +25,14 @@
     }
     
 }
+@media (min-width: 700px) and (orientation: landscape) { 
+    .conteinerPrincipal{
+        display: flex;
+    }
+ }
+@media (min-width: 576px){
+    .conteinerPrincipal{
+        display: none;
+        font-size: 80%;
+    }
+}
